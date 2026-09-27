@@ -44,3 +44,4 @@ export async function importAll(json: string) {
     await db.milestones.clear(); await db.milestones.bulkAdd(data.milestones ?? [])
   })
 }
+// test
